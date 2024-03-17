@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Source_Serif_4 } from "next/font/google";
 import '../bulma/global.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const bodyFont = Source_Serif_4({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "aladino borges: home",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className={`${inter.className} body`}>{children}</body>
+      <body className={`${bodyFont.className}`}>{children}</body>
     </html>
   );
 }
