@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "css-build": "node-sass --omit-source-map-url sass/global.scss -o src/bulma",
+    "css-watch": "npm run css-build -- --watch"
   },
   "dependencies": {
     "next": "14.1.3",
