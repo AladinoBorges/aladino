@@ -1,13 +1,13 @@
 import { alborsui } from '../alborsui';
 
-interface PropTypes {
+interface HeroPropTypes {
   title: string;
   subtitle: string;
   callToActionText: string;
-  callToActionClick: () => void
+  callToActionClick: () => any
 };
 
-export const HeroHeader = ({ title, subtitle, callToActionText, callToActionClick }: PropTypes) => {
+export const HeroHeader = ({ title, subtitle, callToActionText, callToActionClick }: HeroPropTypes) => {
   return (
     <section className="hero is-medium is-primary">
       <div className='hero-body'>
