@@ -1,4 +1,4 @@
-import { alborsui } from '../alborsui';
+import { Button } from '../alborsui';
 
 interface HeroPropTypes {
   title: string;
@@ -15,14 +15,14 @@ export const HeroHeader = ({ title, subtitle, callToActionText, callToActionClic
 
         <p className="subtitle is-3">{subtitle}</p>
 
-        <alborsui.Button
+        <Button
           type="button"
           category='dark'
           onClick={callToActionClick}
           className="is-outlined is-rounded"
         >
           {callToActionText}
-        </alborsui.Button>
+        </Button>
       </div>
       </section>
   );

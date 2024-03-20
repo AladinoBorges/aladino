@@ -1,5 +1,4 @@
-import { atoms } from "./atoms";
-import { organisms } from './organisms/index';
+import { Button } from './atoms/Button';
+import { HeroHeader } from './organisms/HeroHeader';
 
-export const alborsui = { ...atoms, ...organisms };
-
+export { Button, HeroHeader };

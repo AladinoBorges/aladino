@@ -1,4 +1,5 @@
 import { Button } from "./Button";
 
-export const atoms = { Button };
+const atoms = { Button };
 
+export default atoms;

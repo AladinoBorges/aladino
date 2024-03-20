@@ -1,4 +1,5 @@
 import { HeroHeader } from './HeroHeader';
 
-export const organisms = { HeroHeader };
+const organisms = { HeroHeader };
 
+export default organisms;
