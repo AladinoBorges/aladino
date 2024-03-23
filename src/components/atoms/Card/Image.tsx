@@ -4,6 +4,6 @@ interface CardImagePropTypes {
   children: ReactChildren;
 }
 
-export const CardImageAtom = ({ children }: CardImagePropTypes) => {
+export const CardImageContainerAtom = ({ children }: CardImagePropTypes) => {
   return <div className='card-image'>{children}</div>;
 };
