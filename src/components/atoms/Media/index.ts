@@ -1,4 +1,4 @@
-import { MediaContentAtom } from './ContentAtom';
+import { MediaContentAtom } from './Content';
 import { MediaLeftAtom } from './Left';
 import { MediaAtom } from './Media';
 
