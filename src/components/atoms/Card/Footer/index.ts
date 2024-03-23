@@ -1,4 +1,4 @@
-import { FooterAtom } from './Footer';
-import { ItemAtom } from './Item';
+import { CardFooterAtom } from './Footer';
+import { CardFooterItemAtom } from './Item';
 
-export { FooterAtom, ItemAtom };
+export { CardFooterAtom, CardFooterItemAtom };
