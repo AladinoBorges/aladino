@@ -1,11 +1,10 @@
 import { ButtonAtom } from './Button';
-import { ImageAtom } from './Image';
+import { ContentContainerAtom, ImageAtom, SubtitleAtom, TitleAtom } from './Content';
 import { MediaAtom, MediaContentAtom, MediaLeftAtom } from './Media';
-import { SubtitleAtom } from './Subtitle';
-import { TitleAtom } from './Title';
 
 export {
   ButtonAtom,
+  ContentContainerAtom,
   ImageAtom,
   MediaAtom,
   MediaContentAtom,
