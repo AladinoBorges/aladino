@@ -1,4 +1,4 @@
-import { NabBar } from '../alborsui';
+import { NabBarOrganism } from '../alborsui';
 
 export const PrimaryNavBar = () => {
   const navigationItems = [
@@ -21,7 +21,7 @@ export const PrimaryNavBar = () => {
   ];
 
   return (
-    <NabBar
+    <NabBarOrganism
       type='light'
       withLogotype
       position='top'

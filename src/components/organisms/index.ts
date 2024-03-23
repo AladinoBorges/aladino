@@ -1,6 +1,5 @@
-import { HeroHeader } from './HeroHeader';
-import { NabBar } from './NavBar';
+import { HeroHeaderOrganism } from './HeroHeader';
+import { NabBarOrganism } from './NavBar';
+import { VerticalCardOrganism } from './VerticalCard';
 
-const organisms = { HeroHeader, NabBar };
-
-export default organisms;
+export { HeroHeaderOrganism, NabBarOrganism, VerticalCardOrganism };

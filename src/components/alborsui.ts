@@ -1,6 +1,4 @@
-import { Button } from './atoms/Button';
-import { HeroHeader } from './organisms/HeroHeader';
-import { NabBar } from './organisms/NavBar';
+import { ButtonAtom } from './atoms';
+import { HeroHeaderOrganism, NabBarOrganism } from './organisms';
 
-export { Button, HeroHeader, NabBar };
-
+export { ButtonAtom, HeroHeaderOrganism, NabBarOrganism };

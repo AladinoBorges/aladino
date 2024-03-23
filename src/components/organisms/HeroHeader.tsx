@@ -1,18 +1,18 @@
-import { Button } from '../alborsui';
+import { ButtonAtom } from '../alborsui';
 
-interface HeroPropTypes {
+interface HeroOrganismPropTypes {
   title: string;
   subtitle: string;
   callToActionText: string;
   callToActionClick: () => any;
 }
 
-export const HeroHeader = ({
+export const HeroHeaderOrganism = ({
   title,
   subtitle,
   callToActionText,
   callToActionClick,
-}: HeroPropTypes) => {
+}: HeroOrganismPropTypes) => {
   return (
     <section className='hero is-medium is-primary'>
       <div className='hero-body'>
@@ -20,14 +20,14 @@ export const HeroHeader = ({
 
         <p className='subtitle is-4'>{subtitle}</p>
 
-        <Button
+        <ButtonAtom
           type='button'
           category='dark'
           onClick={callToActionClick}
           className='is-outlined is-rounded'
         >
           {callToActionText}
-        </Button>
+        </ButtonAtom>
       </div>
     </section>
   );

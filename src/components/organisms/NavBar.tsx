@@ -9,7 +9,7 @@ type NavbarItems = {
   priority?: string;
 };
 
-interface NavBarPropTypes {
+interface NavBarOrganismPropTypes {
   type: string;
   position: string;
   withLogotype: boolean;
@@ -22,14 +22,14 @@ interface NavBarPropTypes {
   navigationButtons?: NavbarItems[];
 }
 
-export const NabBar = ({
+export const NabBarOrganism = ({
   type,
   position,
   logotype,
   withLogotype,
   navigationItems,
   navigationButtons,
-}: NavBarPropTypes) => {
+}: NavBarOrganismPropTypes) => {
   const [showNavbar, setShowNavbar] = useState<boolean>(false);
 
   return (

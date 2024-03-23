@@ -1,5 +1,5 @@
 'use client';
-import { HeroHeader } from '@/components/alborsui';
+import { HeroHeaderOrganism } from '@/components/alborsui';
 import { PrimaryNavBar } from '@/components/interfaces/PrimaryNavbar';
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <PrimaryNavBar />
 
-      <HeroHeader
+      <HeroHeaderOrganism
         title='aladino borges'
         callToActionClick={() => {}}
         callToActionText={`diga "olá mundo"`}
