@@ -1,5 +1,5 @@
 import { CardHeaderAtom } from './Header';
-import { CardHeaderIconAtom } from './Icon';
+import { CardHeaderIconButtonAtom } from './IconButton';
 import { CardHeaderTitleAtom } from './Title';
 
-export { CardHeaderAtom, CardHeaderIconAtom, CardHeaderTitleAtom };
+export { CardHeaderAtom, CardHeaderIconButtonAtom, CardHeaderTitleAtom };

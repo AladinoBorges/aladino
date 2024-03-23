@@ -1,16 +1,16 @@
 import { CardAtom } from './Card';
-import { ContentAtom } from './Content';
-import { CardFooterAtom, CardFooterItemAtom } from './Footer';
-import { CardHeaderAtom, CardHeaderIconAtom, CardHeaderTitleAtom } from './Header';
-import { CardImageAtom } from './Image';
+import { CardContentAtom } from './Content';
+import { CardFooterAtom, CardFooterButtonItemAtom } from './Footer';
+import { CardHeaderAtom, CardHeaderIconButtonAtom, CardHeaderTitleAtom } from './Header';
+import { CardImageContainerAtom } from './Image';
 
 export {
   CardAtom,
+  CardContentAtom,
   CardFooterAtom,
-  CardFooterItemAtom,
+  CardFooterButtonItemAtom,
   CardHeaderAtom,
-  CardHeaderIconAtom,
+  CardHeaderIconButtonAtom,
   CardHeaderTitleAtom,
-  CardImageAtom,
-  ContentAtom,
+  CardImageContainerAtom,
 };
