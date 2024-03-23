@@ -16,9 +16,9 @@ export const HeroHeader = ({
   return (
     <section className='hero is-medium is-primary'>
       <div className='hero-body'>
-        <h1 className='title is-1'>{title}</h1>
+        <h1 className='title is-2'>{title}</h1>
 
-        <p className='subtitle is-3'>{subtitle}</p>
+        <p className='subtitle is-4'>{subtitle}</p>
 
         <Button
           type='button'

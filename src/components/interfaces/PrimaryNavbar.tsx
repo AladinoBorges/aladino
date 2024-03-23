@@ -11,7 +11,7 @@ export const PrimaryNavBar = () => {
 
   const logotype = {
     pathTo: '/',
-    alternativeText: 'logomarca de aladino borges',
+    alternativeText: 'aladino borges',
     sourceUrl: 'https://bulma.io/images/bulma-logo.png',
   };
 

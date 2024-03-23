@@ -9,9 +9,9 @@ export default function Home() {
 
       <HeroHeader
         title='aladino borges'
-        subtitle='engenheiro de software, desenvolvedor web fullstack  e minimalista'
         callToActionClick={() => {}}
         callToActionText={`diga "olá mundo"`}
+        subtitle='engenheiro de software, desenvolvedor web fullstack  e minimalista'
       />
     </main>
   );
