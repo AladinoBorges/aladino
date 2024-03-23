@@ -1,7 +1,7 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface MediaContentAtomPropTypes {
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const MediaContentAtom = ({ children }: MediaContentAtomPropTypes) => {

@@ -1,7 +1,7 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface CardHeaderTitlePropTypes {
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const CardHeaderTitleAtom = ({ children }: CardHeaderTitlePropTypes) => {

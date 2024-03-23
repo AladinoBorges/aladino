@@ -1,8 +1,8 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface TitleAtomPropTypes extends React.HTMLAttributes<HTMLParagraphElement> {
   isSize: string;
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const TitleAtom = ({ isSize, children }: TitleAtomPropTypes) => {

@@ -1,8 +1,8 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface CardHeaderIconPropTypes {
   ariaLabel: string;
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const CardHeaderIconButtonAtom = ({ ariaLabel, children }: CardHeaderIconPropTypes) => {

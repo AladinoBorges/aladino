@@ -1,7 +1,7 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface MediaLeftPropTypes {
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const MediaLeftAtom = ({ children }: MediaLeftPropTypes) => {

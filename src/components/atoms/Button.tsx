@@ -1,9 +1,9 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface PropTypes extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   category: string;
   className?: string;
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const ButtonAtom = ({ children, category, className, ...props }: PropTypes) => {

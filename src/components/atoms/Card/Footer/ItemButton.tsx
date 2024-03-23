@@ -1,7 +1,7 @@
-import { ReactChildren } from '@/types/global';
+import { ReactChildrenType } from '@/types/global';
 
 interface CardPropTypes extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: ReactChildren;
+  children: ReactChildrenType;
 }
 
 export const CardFooterButtonItemAtom = ({ children }: CardPropTypes) => {
